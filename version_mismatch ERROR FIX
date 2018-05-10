@@ -1,0 +1,13 @@
+;how to update the bot and fix the version_mismatch error
+;1- Enter in Warface folder and open Game.log
+;2- Locate that "ProductVersion:", this tells you what version Warface is.
+;3- Pick the version that u found and replace in this file, u will find it in "Warfacebot\cfg\(ur WF version.cfg)" 
+;example: (br.cfg)
+;
+online_server = game.warface.levelupgames.com.br
+game_manual_profile_creation = 1
+game_server_name = br
+;game_version = REPLACE THAT ITEM WITH THE VERSION THAT U FOUND IN GAME.LOG
+game_version = 1.17200.893.21500
+game_crypt_iv = 834724096,29884556,849283813,14157667,779975000,969872986,327122214,893084885
+game_crypt_key = 979953473,3339148331,1533973302,1354182611,3587368987,3365912769,3674309928,3964699828,3679087599,2002188309,520827739,2194951128,3343259484,1613007751,3658658394,1129980390,1293459702,2828974849,1886413164,255667094,3764062916,1240758385,2445670016,3501994466,1102649977,3030115060,3925076281,1298836506,853843215,2901989898,3449450005,4257676874
